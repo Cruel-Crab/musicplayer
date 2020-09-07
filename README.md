@@ -6,7 +6,7 @@ To see the music player live, visit - http://marsiya-player.herokuapp.com
 
 ## Screenshots 
 
-![Screen Shot()
+[![ss-one.png](https://i.postimg.cc/ht3wPPHH/ss-one.png)](https://postimg.cc/ZWpjwZYc)
 
 
 
