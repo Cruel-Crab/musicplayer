@@ -53,11 +53,6 @@ export default {
           artist : 'Burhani Party',
           src : require('./assets/karbala un.mp3')
         },
-        //{
-        //  title : 'Minnat Karo Inayat',
-        //  artist : 'Mohammed Hirani',
-        //  src : require('./assets/Minnat Karo Inayat.mp3')
-        //},
         {
           title : 'Arsh Girne Laga',
           artist : 'Shk. Mushtaq',
