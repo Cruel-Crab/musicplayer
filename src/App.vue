@@ -25,7 +25,7 @@
       </div>
     </main>
     <footer id="Footer">
-      <span>Made By  &copy;Mohammed Hirani</span>
+      <span>Made By &copy; 2020-Present || Mohammed Hirani</span>
     </footer>
   </div>
 </template>
@@ -171,7 +171,8 @@ export default {
     background-color:white ;
   }
   .contain{
-    background-image: linear-gradient(to right,#f7b554, #f7ad40);
+    /* background-image: linear-gradient(to right,#f7b554, #f7ad40); */
+    background-color: rgb(224, 231, 20);
     border: 1px solid black;
     border-radius: 20px;
     padding-bottom: 15px;
@@ -247,4 +248,19 @@ export default {
     color: #fff;
     background-image: linear-gradient(to right, #cc3e5d,#ff5858);
   }
+  body::-webkit-scrollbar {
+  width: 15px;               /* width of the entire scrollbar */
+}
+  body::-webkit-scrollbar-track {
+  background: #f1f1f1;        /* color of the tracking area */
+}
+  body::-webkit-scrollbar-thumb {
+  background-color: #888;    /*color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid orange;  /* creates padding around scroll thumb */
+}
+  body::-webkit-scrollbar-thumb:hover {
+  
+  background: #314345; 
+} 
 </style>
