@@ -1,5 +1,9 @@
 <template>
   <div id="app">
+    <link rel="stylesheet" 
+        href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
+        crossorigin="anonymous">
     <header>
       <h1 onclick="location.reload()">Marsiyah Player</h1>
     </header>
@@ -10,10 +14,10 @@
           <marquee ><h2 class="song-title">{{ current.title }} : <span>{{ current.artist }}</span>
           </h2></marquee>
           <div class="controls">
-            <button class="prev" @click="prev">Prev</button>
-            <button class="play" v-if="!isPlaying" @click="play">Play</button>
-            <button class="pause" v-else @click="pause">Pause</button>
-            <button class="next" @click="next">Next</button>
+            <button class="prev" @click="prev"><i class="fas fa-backward"></i></button>
+            <button class="play" v-if="!isPlaying" @click="play"><i class="fas fa-play"></i></button>
+            <button class="pause" v-else @click="pause"><i class="fas fa-pause"></i></button>
+            <button class="next" @click="next"><i class="fas fa-forward"></i></button>
           </div>
         </section>
         <section class="playlist">
@@ -257,7 +261,7 @@ export default {
   body::-webkit-scrollbar-thumb {
   background-color: #888;    /*color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 3px solid orange;  /* creates padding around scroll thumb */
+  border: 3px solid rgb(224, 231, 20);  /* creates padding around scroll thumb */
 }
   body::-webkit-scrollbar-thumb:hover {
   
